@@ -157,3 +157,12 @@ matrix50num
 
 matrix50numByRows <- matrix(1:50, ncol = 5, nrow = 10, byrow = TRUE)
 matrix50numByRows  
+
+# Desafio 6
+dataTypes <- c('double','complex','integer','character','logical')
+dataStructures <- c('data.frames','vector','factor','list','matrix')
+answer <- list(dataTypes, dataStructures)
+answer
+
+# Desafio 7
+matrix(c(4, 1, 9, 5, 10, 7), ncol = 2, byrow = TRUE)
